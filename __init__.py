@@ -7,7 +7,7 @@ Class MUST be defined in __init__.py (not re-exported) due to
 discovery check obj.__module__ != full_module in manager.py.
 """
 from typing import Optional, Dict, Any, TYPE_CHECKING
-from src.plugins.base import BasePlugin, PluginMetadata
+from vbwd.plugins.base import BasePlugin, PluginMetadata
 
 if TYPE_CHECKING:
     from flask import Blueprint
