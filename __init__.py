@@ -26,7 +26,7 @@ class MailchimpPlugin(BasePlugin):
     def metadata(self) -> PluginMetadata:
         return PluginMetadata(
             name="mailchimp",
-            version="1.0.0",
+            version="26.6",
             author="VBWD Team",
             description="Mailchimp Transactional (Mandrill) email transport",
             dependencies=["email"],
